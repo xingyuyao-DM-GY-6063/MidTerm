@@ -36,3 +36,4 @@ cover for Pride and Prejudice that invites users to explore its
 themes through animation and interactivity.
 
 ## Sketch
+![sketch](sketch.jpg)

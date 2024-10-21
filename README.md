@@ -18,11 +18,8 @@ The peacock serves as a symbol of vanity and beauty, that resonate
 with the characters' personal journeys throughout the novel. 
 The feathers will be animated.
 
-## Is it interactive? Time-based? Both?
-The cover will be interactive. The peacock feathers will change 
- based on the user's mouse movement.
-
-## What ideas I'd like to explore or experiment with
+## Is it interactive? Time-based? Both?/What ideas I'd like to explore or experiment with
+The cover will be interactive. The peacock feathers will change over time and 
 I wanted to explore how interactivity could be used to visually represent
  the themes of the novel, such as vanity, love and social dynamics. 
  By using mouse events, I hope to capture the fluidity of the characters' 

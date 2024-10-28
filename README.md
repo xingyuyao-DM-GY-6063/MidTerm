@@ -1,15 +1,14 @@
+# Milestone2
+## What I've done this week
+Find a suitable peacock feather material, export to png, then import to vscode.
+## Description of the files, classes, objects or arrays  will use
+Referring to WK06-2. I used `Array` `for()` `if()`.
+## Description of any interactivity or time-based logic
+Feathers change based on time
+## What will write next step
+1. Randomly change the orientation of the feathers; 2. Add text.
+
 # Mid Term Proposal
-## what I've done this week
-在Procreate上画出羽毛，导出png，然后导入vscode
-## description of the files, classes, objects or arrays  will use
-您将使用的文件、类、对象或数组的描述
-参考WK06-2
-## description of any interactivity or time-based logic
-羽毛基于时间变化
-## what will write next step
-1.随机改变羽毛的朝向;添加文字
-
-
 ## What Book
 The book i choose is *Pride and Prejudice by Jane Austin*.
 It is a classic novel that explores the themes of love, 

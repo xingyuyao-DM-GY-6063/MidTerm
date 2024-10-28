@@ -1,4 +1,14 @@
 # Mid Term Proposal
+## what I've done this week
+在Procreate上画出羽毛，导出png，然后导入vscode
+## description of the files, classes, objects or arrays  will use
+您将使用的文件、类、对象或数组的描述
+参考WK06-2
+## description of any interactivity or time-based logic
+羽毛基于时间变化
+## what will write next step
+1.随机改变羽毛的朝向;添加文字
+
 
 ## What Book
 The book i choose is *Pride and Prejudice by Jane Austin*.

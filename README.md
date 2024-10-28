@@ -6,7 +6,8 @@ Referring to WK06-2. I used `Array` `for()` `if()`.
 ## Description of any interactivity or time-based logic
 Feathers change based on time
 ## What will write next step
-1. Randomly change the orientation of the feathers; 2. Add text.
+1. Randomly change the orientation of the feathers; 
+2. Add text.
 
 # Mid Term Proposal
 ## What Book

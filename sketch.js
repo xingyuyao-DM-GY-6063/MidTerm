@@ -32,7 +32,7 @@ function setup() {
     let aFeather = {
       x: random(width),
       y: random(height),
-      size: random(100, 400), // Random size for each feather
+      size: random(50, 400), // Random size for each feather
       alpha: random(50, 200), // Random transparency for each feather
       dx: random(-5, 5), // Horizontal speed
       dy: random(-5, 5), // Vertical speed

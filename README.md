@@ -18,38 +18,6 @@ In the final project, viewers will experience a visually dynamic and interactive
 
 This combination of animated visuals and interactive text creates an immersive, time-based representation of Pride and Prejudice, blending movement and interactivity to capture the timeless elegance and depth of the novel.
 
-```
-// Create feather objects with random properties
-for (let cnt = 0; cnt < NUM_FEATHERS; cnt++) {
-  let aFeather = {
-    x: random(width),
-    y: random(height),
-    size: random(50, 400),       // Random size
-    alpha: random(50, 200),      // Random transparency
-    dx: random(-5, 5),           // Horizontal speed
-    dy: random(-5, 5),           // Vertical speed
-    angle: random(TWO_PI),       // Initial angle
-    da: random(-0.05, 0.05)      // Rotation speed
-  };
-  feathers.push(aFeather);
-}
-
-// Update and display each feather
-for (let mFeather of feathers) {
-  tint(255, mFeather.alpha); // Apply transparency
-  push();
-  translate(mFeather.x, mFeather.y);
-  rotate(mFeather.angle);    // Rotate feather
-  imageMode(CENTER);
-  image(featherImg, 0, 0, mFeather.size, mFeather.size);
-  pop();
-
-  // Update position and rotation
-  mFeather.x += mFeather.dx;
-  mFeather.y += mFeather.dy;
-  mFeather.angle += mFeather.da;
-}
-```
 
 # Milestone2
 ## What I've done this week

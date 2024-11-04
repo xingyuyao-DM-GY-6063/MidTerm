@@ -82,7 +82,7 @@ function draw() {
 
   // Display the current quote with both English and Chinese lines
   displayQuote(quotes[currentQuoteIndex], width / 2, height - 200);
-  
+
   textSize(120);
   textFont(customFont);
   text("Pride and Prejudice", width / 2, height / 2);

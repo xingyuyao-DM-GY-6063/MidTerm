@@ -19,7 +19,7 @@ function preload() {
   ];
 
   // Load the custom font file for English text
-  customFont = loadFont("GreatVibes-Regular.ttf"); // Replace with your font file name
+  customFont = loadFont("GreatVibes-Regular.ttf"); 
 }
 
 function setup() {
@@ -92,8 +92,8 @@ function draw() {
 }
 
 function displayQuote(quote, x, y) {
-  let englishText = quote.split('\n')[0]; // Extract English part
-  let chineseText = quote.split('\n')[1]; // Extract Chinese part
+  let englishText = quote.split("\n")[0]; // Extract English part
+  let chineseText = quote.split("\n")[1]; // Extract Chinese part
 
   // Display English text in custom font
   textFont(customFont);
@@ -102,7 +102,7 @@ function displayQuote(quote, x, y) {
   text(englishText, x, y - 30);
 
   // Display Chinese text with default font
-  textFont('sans-serif'); // Switch to default font for Chinese
+  textFont("sans-serif"); // Switch to default font for Chinese
   textSize(20);
   text(chineseText, x, y + 30);
 }

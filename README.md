@@ -4,6 +4,7 @@
 
 
 ![Great Vibes](font.png)
+
 2. **Feather Animation Enhancement**: Based on feedback from my professor, I added random rotation to each feather image. Now, each feather rotates at a unique angle, making the animation feel more dynamic and natural, as if the feathers are floating and drifting with gentle movement.
 
 3. **Mouse Interactivity for Quotes**: As planned, I implemented mouse interactivity, where clicking on the screen cycles through classic quotes from Pride and Prejudice. Each click reveals a different line from the novel.

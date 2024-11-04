@@ -12,11 +12,9 @@
 ## Description of the final interactivity or time-based logic
 In the final project, viewers will experience a visually dynamic and interactive display inspired by Pride and Prejudice. Key features include:
 
-1. **Floating Feathers Animation**: The background animation consists of gently moving and rotating peacock feathers, symbolizing the elegance and romanticism of the story. Each feather floats across the screen at varying sizes, speeds, and angles, creating a sense of gentle motion and visual depth.
+1. **Time-Based Floating Feathers Animation**: The background animation consists of gently moving and rotating peacock feathers, symbolizing the elegance and romanticism of the story. Each feather floats across the screen at varying sizes, speeds, and angles, creating a sense of gentle motion and visual depth.
 
-2. **Time-Based Text Animation**: The title "Pride and Prejudice" is displayed prominently in the center of the screen using the Great Vibes font, pulsing slightly to create a subtle, eye-catching effect. The timing of this animation helps draw focus to the central theme.
-
-3. **Mouse Click Interactivity for Quotes**: Each time the user clicks on the screen, a classic quote from Pride and Prejudice appears near the bottom. This interactivity invites viewers to engage with the text actively.
+2. **Mouse Click Interactivity for Quotes**: Each time the user clicks on the screen, a classic quote from Pride and Prejudice appears near the bottom. This interactivity invites viewers to engage with the text actively.
 
 This combination of animated visuals and interactive text creates an immersive, time-based representation of Pride and Prejudice, blending movement and interactivity to capture the timeless elegance and depth of the novel.
 

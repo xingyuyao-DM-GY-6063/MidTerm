@@ -15,12 +15,11 @@ function preload() {
     "Not all of us can afford to be romantic.",
     "If your feelings are still what they were last April, tell me so at once. My affections and wishes have not changed. But one word from you will silence me forever.",
     "Misery can be caused by someone being just weak and indecisive.",
-    "Not all of us can afford to be romantic."
+    "Not all of us can afford to be romantic.",
   ];
 
-    // Load the custom font file
-    customFont = loadFont('GreatVibes-Regular.ttf'); // Replace with your font file name
-  
+  // Load the custom font file
+  customFont = loadFont("GreatVibes-Regular.ttf"); // Replace with your font file name
 }
 
 function setup() {
@@ -37,7 +36,7 @@ function setup() {
       dx: random(-5, 5), // Horizontal speed
       dy: random(-5, 5), // Vertical speed
       angle: random(TWO_PI), // Random initial angle
-      da: random(-0.05, 0.05) // Random rotational speed
+      da: random(-0.05, 0.05), // Random rotational speed
     };
 
     feathers.push(aFeather);
@@ -47,7 +46,6 @@ function setup() {
   textSize(32); // Set font size
   fill(50); // Set text color
   textAlign(CENTER, CENTER);
-
 }
 
 function draw() {
@@ -89,9 +87,9 @@ function draw() {
   textSize(36);
   textAlign(CENTER, CENTER);
   text(quotes[currentQuoteIndex], width / 2, height - 200); // Display the quote near the bottom
-  
+
   textSize(100);
-  text("Pride and Prejudice", width / 2, height / 2); 
+  text("Pride and Prejudice", width / 2, height / 2);
 }
 
 function mousePressed() {

@@ -1,14 +1,12 @@
 # Milestone3
 ## What I’ve done this week 
-This week, I focused on refining my Pride and Prejudice interactive project. Here’s what I accomplished:
-
-1. **Font Selection for Title**: I downloaded a beautiful, elegant, vintage-inspired font called Great Vibes from Google. This font adds a classic, romantic feel to the project and is perfect for the cover’s title, capturing the essence of Pride and Prejudice.
+1. **Font Selection for Title**: I downloaded a beautiful, elegant, vintage-inspired font called Great Vibes from Google Fonts. This font adds a classic, romantic feel to the project and is perfect for the cover’s title, capturing the essence of Pride and Prejudice.
 
 
 ![Great Vibes](font.png)
 2. **Feather Animation Enhancement**: Based on feedback from my professor, I added random rotation to each feather image. Now, each feather rotates at a unique angle, making the animation feel more dynamic and natural, as if the feathers are floating and drifting with gentle movement.
 
-3. **Mouse Interactivity for Quotes**: As planned, I implemented mouse interactivity, where clicking on the screen cycles through classic quotes from Pride and Prejudice. Each click reveals a different line from the novel, allowing the viewer to experience a rotating selection of the book’s wisdom and wit.
+3. **Mouse Interactivity for Quotes**: As planned, I implemented mouse interactivity, where clicking on the screen cycles through classic quotes from Pride and Prejudice. Each click reveals a different line from the novel.
 
 ## Description of the final interactivity or time-based logic
 In the final project, viewers will experience a visually dynamic and interactive display inspired by Pride and Prejudice. Key features include:
@@ -17,7 +15,7 @@ In the final project, viewers will experience a visually dynamic and interactive
 
 2. **Time-Based Text Animation**: The title "Pride and Prejudice" is displayed prominently in the center of the screen using the Great Vibes font, pulsing slightly to create a subtle, eye-catching effect. The timing of this animation helps draw focus to the central theme.
 
-3. **Mouse Click Interactivity for Quotes**: Each time the user clicks on the screen, a classic quote from Pride and Prejudice appears near the bottom. This interactivity invites viewers to engage with the text actively, as each quote offers insight or a famous line from the story. The quotes alternate with each click, providing a new experience with each interaction.
+3. **Mouse Click Interactivity for Quotes**: Each time the user clicks on the screen, a classic quote from Pride and Prejudice appears near the bottom. This interactivity invites viewers to engage with the text actively.
 
 This combination of animated visuals and interactive text creates an immersive, time-based representation of Pride and Prejudice, blending movement and interactivity to capture the timeless elegance and depth of the novel.
 

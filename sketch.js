@@ -3,7 +3,7 @@ let feathers = []; // Array to hold feather objects
 let featherImg; // Variable for feather image
 let quotes = []; // Array to hold Pride and Prejudice quotes
 let currentQuoteIndex = 0; // Index to track the current quote
-let customFont; // Variable to hold the font
+let customFont; // Variable for English font
 
 function preload() {
   // Load the feather image
@@ -11,14 +11,14 @@ function preload() {
 
   // Load the classic lines from Pride and Prejudice
   quotes = [
-    "Pride relates more to our opinion of ourselves, vanity to what we would have others think of us.",
-    "Not all of us can afford to be romantic.",
-    "If your feelings are still what they were last April, tell me so at once. My affections and wishes have not changed. But one word from you will silence me forever.",
-    "Misery can be caused by someone being just weak and indecisive.",
-    "Not all of us can afford to be romantic.",
+    "Pride relates more to our opinion of ourselves, vanity to what we would have others think of us.\n骄傲多半涉及我们自己怎样看待自己，而虚荣则涉及我们想别人怎样看我们。",
+    "Not all of us can afford to be romantic.\n并不是我们所有的人都会拥有浪漫。",
+    "If your feelings are still what they were last April, tell me so at once. My affections and wishes have not changed. But one word from you will silence me forever.\n如果你的心意仍与四月时一样，马上告诉我。我的爱与心愿一如既往。但是你的一句话也会让我永远缄默。",
+    "Misery can be caused by someone being just weak and indecisive.\n一个人仅仅因为软弱无能或优柔寡断就完全可能招致痛苦。",
+    "Not all of us can afford to be romantic.\n并不是我们所有的人都会拥有浪漫。",
   ];
 
-  // Load the custom font file
+  // Load the custom font file for English text
   customFont = loadFont("GreatVibes-Regular.ttf"); // Replace with your font file name
 }
 
@@ -42,8 +42,8 @@ function setup() {
     feathers.push(aFeather);
   }
 
-  textFont(customFont); // Apply the custom font to the text
-  textSize(32); // Set font size
+  textFont(customFont); // Apply the custom font to the English text
+  textSize(32); // Set font size for main display
   fill(50); // Set text color
   textAlign(CENTER, CENTER);
 }
@@ -82,14 +82,29 @@ function draw() {
     }
   }
 
-  // Display the current quote at the center of the screen
-  fill(0);
-  textSize(36);
-  textAlign(CENTER, CENTER);
-  text(quotes[currentQuoteIndex], width / 2, height - 200); // Display the quote near the bottom
+  // Display the current quote with both English and Chinese lines
+  displayQuote(quotes[currentQuoteIndex], width / 2, height - 200);
 
-  textSize(100);
+  // Display the title with pulsing effect
+  textSize(120);
+  textFont(customFont);
   text("Pride and Prejudice", width / 2, height / 2);
+}
+
+function displayQuote(quote, x, y) {
+  let englishText = quote.split('\n')[0]; // Extract English part
+  let chineseText = quote.split('\n')[1]; // Extract Chinese part
+
+  // Display English text in custom font
+  textFont(customFont);
+  textSize(36);
+  fill(0);
+  text(englishText, x, y - 30);
+
+  // Display Chinese text with default font
+  textFont('sans-serif'); // Switch to default font for Chinese
+  textSize(20);
+  text(chineseText, x, y + 30);
 }
 
 function mousePressed() {

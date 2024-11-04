@@ -31,7 +31,7 @@ Feathers change based on time
 
 # Mid Term Proposal
 ## What Book
-The book i choose is *Pride and Prejudice by Jane Austin*.
+The book I choose is *Pride and Prejudice by Jane Austin*.
 It is a classic novel that explores the themes of love, 
 marriage, class, and social expectations in early 19th-century 
 England. The story centers around the intelligent and 

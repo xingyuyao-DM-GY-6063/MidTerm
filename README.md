@@ -20,7 +20,6 @@ In the final project, viewers will experience a visually dynamic and interactive
 3. **Mouse Click Interactivity for Quotes**: Each time the user clicks on the screen, a classic quote from Pride and Prejudice appears near the bottom. This interactivity invites viewers to engage with the text actively, as each quote offers insight or a famous line from the story. The quotes alternate with each click, providing a new experience with each interaction.
 
 This combination of animated visuals and interactive text creates an immersive, time-based representation of Pride and Prejudice, blending movement and interactivity to capture the timeless elegance and depth of the novel.
-## Images, drawings, sketches
 
 # Milestone2
 ## What I've done this week

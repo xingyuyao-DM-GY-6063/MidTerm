@@ -19,7 +19,7 @@ function preload() {
   ];
 
   // Load the custom font file for English text
-  customFont = loadFont("GreatVibes-Regular.ttf"); 
+  customFont = loadFont("GreatVibes-Regular.ttf");
 }
 
 function setup() {
@@ -42,9 +42,9 @@ function setup() {
     feathers.push(aFeather);
   }
 
-  textFont(customFont); // Apply the custom font to the English text
-  textSize(32); // Set font size for main display
-  fill(50); // Set text color
+  textFont(customFont);
+  textSize(32);
+  fill(50);
   textAlign(CENTER, CENTER);
 }
 
@@ -54,8 +54,6 @@ function draw() {
   // Draw and animate each feather
   for (let idx = 0; idx < feathers.length; idx++) {
     let mFeather = feathers[idx];
-
-    // Set the transparency
     tint(255, mFeather.alpha); // Adjust transparency
 
     // Apply transformations for position and rotation
@@ -84,8 +82,7 @@ function draw() {
 
   // Display the current quote with both English and Chinese lines
   displayQuote(quotes[currentQuoteIndex], width / 2, height - 200);
-
-  // Display the title with pulsing effect
+  
   textSize(120);
   textFont(customFont);
   text("Pride and Prejudice", width / 2, height / 2);
